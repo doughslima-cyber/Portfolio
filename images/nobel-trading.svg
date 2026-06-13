@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgNobel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a140a"/>
+    </linearGradient>
+    <linearGradient id="accentNobel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bgNobel)"/>
+  <!-- Grid dots -->
+  <g opacity="0.05">
+    <circle cx="50" cy="50" r="1" fill="#f59e0b"/><circle cx="150" cy="50" r="1" fill="#f59e0b"/>
+    <circle cx="250" cy="50" r="1" fill="#f59e0b"/><circle cx="350" cy="50" r="1" fill="#f59e0b"/>
+    <circle cx="450" cy="50" r="1" fill="#f59e0b"/><circle cx="550" cy="50" r="1" fill="#f59e0b"/>
+    <circle cx="650" cy="50" r="1" fill="#f59e0b"/><circle cx="750" cy="50" r="1" fill="#f59e0b"/>
+    <circle cx="850" cy="50" r="1" fill="#f59e0b"/><circle cx="950" cy="50" r="1" fill="#f59e0b"/>
+    <circle cx="50" cy="150" r="1" fill="#f59e0b"/><circle cx="150" cy="150" r="1" fill="#f59e0b"/>
+    <circle cx="250" cy="150" r="1" fill="#f59e0b"/><circle cx="350" cy="150" r="1" fill="#f59e0b"/>
+    <circle cx="450" cy="150" r="1" fill="#f59e0b"/><circle cx="550" cy="150" r="1" fill="#f59e0b"/>
+    <circle cx="650" cy="150" r="1" fill="#f59e0b"/><circle cx="750" cy="150" r="1" fill="#f59e0b"/>
+    <circle cx="850" cy="150" r="1" fill="#f59e0b"/><circle cx="950" cy="150" r="1" fill="#f59e0b"/>
+  </g>
+  <!-- Tabs bar -->
+  <rect x="20" y="20" width="1160" height="40" rx="8" fill="#0d1117" opacity="0.8" stroke="#1a2332" stroke-width="1"/>
+  <rect x="40" y="32" width="80" height="16" rx="3" fill="url(#accentNobel)" opacity="0.5"/>
+  <rect x="135" y="32" width="70" height="16" rx="3" fill="#1a2332"/>
+  <rect x="220" y="32" width="80" height="16" rx="3" fill="#1a2332"/>
+  <rect x="315" y="32" width="100" height="16" rx="3" fill="#1a2332"/>
+  <!-- DRE card - left -->
+  <rect x="20" y="75" width="380" height="280" rx="8" fill="#0d1117" stroke="#1a2332" stroke-width="1"/>
+  <text x="40" y="105" fill="#f59e0b" font-size="14" font-family="sans-serif" font-weight="bold">DRE Financeiro</text>
+  <rect x="40" y="120" width="340" height="1" fill="#1a2332"/>
+  <text x="40" y="145" fill="#8b949e" font-size="11" font-family="monospace">Receita Bruta</text>
+  <text x="360" y="145" fill="#e6edf3" font-size="11" font-family="monospace" text-anchor="end">R$ 347.250</text>
+  <text x="40" y="170" fill="#8b949e" font-size="11" font-family="monospace">Custos Operacionais</text>
+  <text x="360" y="170" fill="#e6edf3" font-size="11" font-family="monospace" text-anchor="end">-R$ 198.400</text>
+  <text x="40" y="195" fill="#8b949e" font-size="11" font-family="monospace">Margem Bruta</text>
+  <text x="360" y="195" fill="#f59e0b" font-size="11" font-family="monospace" text-anchor="end">R$ 148.850</text>
+  <rect x="40" y="208" width="340" height="1" fill="#1a2332"/>
+  <text x="40" y="233" fill="#8b949e" font-size="11" font-family="monospace">Despesas Adm.</text>
+  <text x="360" y="233" fill="#e6edf3" font-size="11" font-family="monospace" text-anchor="end">-R$ 52.300</text>
+  <text x="40" y="258" fill="#8b949e" font-size="11" font-family="monospace">Impostos</text>
+  <text x="360" y="258" fill="#e6edf3" font-size="11" font-family="monospace" text-anchor="end">-R$ 38.200</text>
+  <rect x="40" y="271" width="340" height="1" fill="#1a2332"/>
+  <text x="40" y="296" fill="#8b949e" font-size="11" font-family="monospace">Resultado Líquido</text>
+  <text x="360" y="296" fill="#22c55e" font-size="13" font-family="monospace" font-weight="bold" text-anchor="end">R$ 58.350</text>
+  <!-- Import table - center -->
+  <rect x="415" y="75" width="390" height="280" rx="8" fill="#0d1117" stroke="#1a2332" stroke-width="1"/>
+  <text x="435" y="105" fill="#f59e0b" font-size="14" font-family="sans-serif" font-weight="bold">BLs · Importações</text>
+  <rect x="435" y="115" width="350" height="1" fill="#1a2332"/>
+  <rect x="435" y="130" width="350" height="10" rx="2" fill="#1a2332" opacity="0.6"/>
+  <rect x="435" y="153" width="340" height="10" rx="2" fill="#1a2332" opacity="0.6"/>
+  <rect x="435" y="176" width="345" height="10" rx="2" fill="#f59e0b" opacity="0.15"/>
+  <rect x="435" y="199" width="330" height="10" rx="2" fill="#1a2332" opacity="0.6"/>
+  <rect x="435" y="222" width="350" height="10" rx="2" fill="#1a2332" opacity="0.6"/>
+  <rect x="435" y="245" width="340" height="10" rx="2" fill="#f59e0b" opacity="0.15"/>
+  <rect x="435" y="268" width="335" height="10" rx="2" fill="#1a2332" opacity="0.6"/>
+  <!-- Chart - right -->
+  <rect x="820" y="75" width="360" height="280" rx="8" fill="#0d1117" stroke="#1a2332" stroke-width="1"/>
+  <text x="840" y="105" fill="#f59e0b" font-size="14" font-family="sans-serif" font-weight="bold">Receita Mensal</text>
+  <!-- Bar chart -->
+  <rect x="850" y="280" width="28" height="60" rx="2" fill="#f59e0b" opacity="0.6"/>
+  <rect x="890" y="260" width="28" height="80" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <rect x="930" y="240" width="28" height="100" rx="2" fill="#f59e0b" opacity="0.8"/>
+  <rect x="970" y="250" width="28" height="90" rx="2" fill="#f97316" opacity="0.8"/>
+  <rect x="1010" y="220" width="28" height="120" rx="2" fill="#f97316" opacity="0.9"/>
+  <rect x="1050" y="230" width="28" height="110" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <rect x="1090" y="200" width="28" height="140" rx="2" fill="#f97316" opacity="0.9"/>
+  <rect x="1130" y="210" width="28" height="130" rx="2" fill="#f59e0b" opacity="0.6"/>
+  <!-- Title overlay -->
+  <rect x="380" y="390" width="440" height="80" rx="12" fill="#0d1117" opacity="0.9" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="600" y="425" fill="#f59e0b" font-size="22" font-family="sans-serif" font-weight="bold" text-anchor="middle">Nobel Trading</text>
+  <text x="600" y="453" fill="#8b949e" font-size="14" font-family="sans-serif" text-anchor="middle">Gestão de trading company · Importação · DRE</text>
+  <!-- Tags -->
+  <rect x="410" y="490" width="85" height="24" rx="6" fill="#f59e0b" opacity="0.15"/>
+  <text x="452" y="506" fill="#f59e0b" font-size="11" font-family="monospace" text-anchor="middle">TypeScript</text>
+  <rect x="505" y="490" width="70" height="24" rx="6" fill="#f59e0b" opacity="0.15"/>
+  <text x="540" y="506" fill="#f59e0b" font-size="11" font-family="monospace" text-anchor="middle">shadcn/ui</text>
+  <rect x="585" y="490" width="90" height="24" rx="6" fill="#f59e0b" opacity="0.15"/>
+  <text x="630" y="506" fill="#f59e0b" font-size="11" font-family="monospace" text-anchor="middle">TanStack</text>
+  <rect x="685" y="490" width="70" height="24" rx="6" fill="#f59e0b" opacity="0.15"/>
+  <text x="720" y="506" fill="#f59e0b" font-size="11" font-family="monospace" text-anchor="middle">Firebase</text>
+</svg>
