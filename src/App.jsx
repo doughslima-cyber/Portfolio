@@ -9,6 +9,7 @@ const projects = [
     stack: ['React 19', 'Firebase', 'Tailwind CSS', 'Recharts', 'Framer Motion'],
     url: 'https://github.com/doughslima-cyber/rmx-crm',
     live: 'https://arsync.web.app',
+    image: '/Portfolio/images/rmx-crm.svg',
     highlights: ['Multi-tenant real', 'Orçamento público compartilhável', 'Dashboard financeiro', 'App Check + reCAPTCHA'],
   },
   {
@@ -19,6 +20,7 @@ const projects = [
     stack: ['React 18', 'TypeScript', 'shadcn/ui', 'TanStack Query', 'Firebase', 'Recharts'],
     url: 'https://github.com/doughslima-cyber/nobel-trading',
     live: null,
+    image: '/Portfolio/images/nobel-trading.svg',
     highlights: ['TypeScript + shadcn', 'Modo mock para dev', 'PWA', 'Roles por custom claims'],
   },
   {
@@ -29,6 +31,7 @@ const projects = [
     stack: ['React 19', 'Firebase', 'Tailwind CSS', 'DnD Kit', 'Recharts'],
     url: 'https://github.com/doughslima-cyber/mda-solucoes',
     live: null,
+    image: '/Portfolio/images/mda-solucoes.svg',
     highlights: ['Drag-and-drop Kanban', 'Exportação XLS/PDF', 'PWA', 'Gestão de prestadores'],
   },
   {
@@ -39,6 +42,7 @@ const projects = [
     stack: ['React 18', 'Firebase Auth', 'Firestore', 'Tailwind CSS v4', 'Vite'],
     url: 'https://github.com/doughslima-cyber/growth-advisor',
     live: null,
+    image: '/Portfolio/images/growth-advisor.svg',
     highlights: ['Pipeline visual de vendas', 'Métricas por consultor', 'Autenticação real', 'Firebase Hosting'],
   },
 ]
@@ -115,6 +119,14 @@ function App() {
               <article key={p.id}
                 className="glass-card p-6 group cursor-pointer hover:border-accent/40 transition-all"
                 onClick={() => setActiveProject(activeProject === p.id ? null : p.id)}>
+                <div className="relative w-full h-40 mb-4 overflow-hidden rounded-lg bg-dark-3/50">
+                  <img
+                    src={p.image}
+                    alt={`${p.name} screenshot`}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                </div>
                 <div className="flex items-start justify-between mb-3">
                   <h3 className="text-xl font-bold text-light">{p.name}</h3>
                   <span className="text-accent text-sm group-hover:translate-x-1 transition-transform">
