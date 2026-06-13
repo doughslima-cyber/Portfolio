@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e3fcc;
+  --color-primary-dark: #152ea0;
+  --color-accent: #06d6a0;
+  --color-dark: #0f172a;
+  --color-dark-2: #1e293b;
+  --color-dark-3: #334155;
+  --color-light: #f8fafc;
+  --color-light-2: #cbd5e1;
+  --color-light-3: #94a3b8;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark text-light font-sans;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-light;
+  }
+}
+
+@layer utilities {
+  .card-gradient {
+    background: linear-gradient(135deg, var(--color-dark-2) 0%, var(--color-dark-3) 100%);
+  }
+
+  .glass-card {
+    @apply bg-dark-2/80 backdrop-blur-sm border border-dark-3/50 rounded-xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-blue-400 bg-clip-text text-transparent;
+  }
+}
